@@ -1,0 +1,88 @@
+body {
+    background-image: url("2jpg.jpg");
+}
+
+body {
+    background-size: cover;
+    height: 100vh;
+}
+
+body h1 {
+    font-size: 35px;
+    color: red;
+
+}
+
+.form {
+    width: 250;
+    height: 330;
+    color: aqua;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 25px;
+    border-radius: 18px;
+
+}
+
+.form h1 {
+
+    width: 220;
+    text-align: center;
+    padding-left: 11px;
+    font-size: 35px;
+    color: pink;
+    margin: botton 20px;
+
+}
+
+.form p {
+    padding-bottom: -15px;
+}
+
+.fontinput {
+    width: 100%;
+    height: 35px;
+    padding-top: 5%;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.form input { type="submit"};
+
+    {
+    width: 60%;
+    margin-left: 50px;
+    height: 40px;
+    color: #000;
+    background: #666;
+    FONT-SIZE: 16PX;
+    FONT-WEIGHT: BOLD;
+    BORDER-RADIUS: 15PX;
+    }
+    <input type="checkbox" {
+        color: 666px;
+    }
+
+    .form input {type="submit" name="" value="login"}:hover{
+        cursor: pointer;
+        font-weight:bold;
+    }
+
+
+form input {type="submit" name="" value="login"}
+{
+    -ms-layout-grid-line:  botton;
+    color:#6666;
+}
