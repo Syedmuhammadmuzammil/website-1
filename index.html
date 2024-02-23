@@ -4,48 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login password validation|prazo tutorial</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="valid.js"></script>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
 </head>
 
 <body>
-    <div>
-    <h1>EROWOLD COMPANY</h1>
-    </div>
-    <div class="form">
-        <h1> login here</h1>
-        <p><b>username:</b></p>
-        <input type="text" name="" placeholder="name here">
-        <p> <B>password:</B></p>
-        <input type="password" name="" placeholder="password here " id="password show">
 
-        <center>
-        <input type="checkbox" onclick="myfunction()">
-    </center>
+<div class="container">
+<div class="calculator">
+    <form> 
+        <div class="display">
+            <input type="text" name="display"> 
+        </div>
+        <div>
+            <input type="button" value="AC" onclick="display.value = '' " class="operator">
+            <input type="button" value="DE" onclick="display.value = display.value.toString().slice
+            (0,-1)" class="operator">
+            <input type="button" value="." onclick="display.value += '.' " class="operator">
+            <input type="button" value="/" onclick="display.value += '/' " class="operator">
+            
+        </div>
+        <div>
+            <input type="button" value="7" onclick="display.value += '7' ">
+            <input type="button" value="8" onclick="display.value += '8' ">
+            <input type="button" value="9" onclick="display.value += '9' ">
+            <input type="button" value="*" onclick="display.value += '*' "class="operator">
+        </div>
+        <div>
+          <input type="button" value="5" onclick="display.value += '5' ">
+          <input type="button" value="4" onclick="display.value += '4' ">
+          <input type="button" value="6" onclick="display.value += '6' ">
+          <input type="button" value="-" onclick="display.value += '-' "class="operator">
+        </div>
+        <div>
+            <input type="button" value="1" onclick="display.value += '1' ">
+            <input type="button" value="2" onclick="display.value += '2' ">
+            <input type="button" value="3" onclick="display.value += '3' ">
+            <input type="button" value="+" onclick="display.value += '+' "class="operator">
+     </div>
+     <div>
+        <input type="button" value="00" onclick="display.value += '00' ">
+        <input type="button" value="0" onclick="display.value += '0' ">
+        <input type="button" value="=" onclick="display.value = eval(display.value)"
+         class="equal operator">
 
-    <center>
-        <input type="submit" name="" value="login"onclick="validate()">
-    </center>
-
-    </div>
-         <p id="length"></p>
-    <div>
-        
-    </div>
-    
-     
-
+ </div>
+    </form>
+  </div>
+</div>
 </body>
 
-</html> 
+</html>
